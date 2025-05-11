@@ -159,3 +159,26 @@ h1 {
 .favorites button:hover {
   background: #64b5f6;
 }
+
+.font-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy-icon-btn {
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+}
+
+.copy-icon-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+[data-theme='dark'] .copy-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
