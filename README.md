@@ -3,6 +3,8 @@
 # 🖋️ Font Review Tool
 
 A modern, responsive React.js app to preview and compare fonts with full customization. Built with a sleek UI, dark/light mode, and instant CSS copy — perfect for designers, developers, and typography enthusiasts.
+---
+DEMO -> https://toolpreview.netlify.app/
 
 ---
 
