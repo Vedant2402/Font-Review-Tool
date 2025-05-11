@@ -24,7 +24,7 @@ line-height: ${lineHeight};`.trim();
     <div className="font-preview">
       <div className="font-header">
         <h3 style={{ fontFamily: font }}>{font}</h3>
-        <button className="copy-icon-btn" onClick={handleCopy} title="Copy CSS">
+        <button className="copy-icon-btn" onClick={handleCopy} title="Copy CSS Styles">
           📋
         </button>
       </div>

@@ -182,3 +182,44 @@ h1 {
 [data-theme='dark'] .copy-icon-btn:hover {
   background: rgba(255, 255, 255, 0.1);
 }
+
+.app-footer {
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  color: #333;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 12px 12px 0 0;
+  backdrop-filter: blur(6px);
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+[data-theme="dark"] .app-header {
+  background: linear-gradient(135deg, #1e1e2f, #12121a);
+  border-bottom: 1px solid #2a2a2a;
+}
+
+[data-theme="dark"] .header-content h1 {
+  background: linear-gradient(90deg, #90caf9, #f48fb1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+[data-theme="dark"] .app-footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #bbb;
+  border-top: 1px solid #2a2a2a;
+}
+
+.app {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
